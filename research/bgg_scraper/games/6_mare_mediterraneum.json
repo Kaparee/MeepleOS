@@ -1,0 +1,45 @@
+{
+  "bgg_id": 6,
+  "title": "Mare Mediterraneum",
+  "polish_title": null,
+  "text_heaviness": 2,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": null,
+  "publisher": "Historien Spiele Galerie (Historien Spielegalerie)",
+  "designer": "Jean du Poël",
+  "min_player": 2,
+  "max_player": 6,
+  "optimal_player": 4,
+  "community_players_min": 4,
+  "community_players_max": 6,
+  "min_age": 12,
+  "community_min_age": 12,
+  "min_playtime": 240,
+  "max_playtime": 240,
+  "optimal_playtime": 240,
+  "weight": 3.0,
+  "bayes_avg": 5.53,
+  "stddev": 1.7,
+  "bgg_rank": 16132,
+  "users_rated": 89,
+  "year_published": 1999,
+  "image_url": "https://cf.geekdo-images.com/277POF80AUz2ZE9XSApyDg__original/img/hQCIS_adSN2LfBgUCsEpJ6CsPVQ=/0x0/filters:format(jpeg)/pic28424.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/277POF80AUz2ZE9XSApyDg__small/img/FUFTIqOZLoPbHTbD4Zg2uvLry-A=/fit-in/200x150/filters:strip_icc()/pic28424.jpg",
+  "description": "In the ancient lands along the Mediterranean, players attempt to satisfy their unique victory conditions via trade, war and construction. This lavishly produced game contains tons of wooden game components and a beautiful roll-out vinyl map. Players produce a score of different commodities to trade with other cities in the hope of creating enough income to fill their capitals with buildings, produce artwork, and fill warehouses with goods.",
+  "mechanics": [
+    {
+      "bgg_id": 2072,
+      "name": "Dice Rolling"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1015,
+      "name": "Civilization"
+    },
+    {
+      "bgg_id": 1008,
+      "name": "Nautical"
+    }
+  ]
+}

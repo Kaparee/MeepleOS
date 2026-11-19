@@ -1,0 +1,57 @@
+{
+  "bgg_id": 17,
+  "title": "Button Men",
+  "polish_title": null,
+  "text_heaviness": 1,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": "http://www.youtube.com/watch?v=13T7D8pAzKU",
+  "publisher": "Cheapass Games",
+  "designer": "James Ernest",
+  "min_player": 2,
+  "max_player": 2,
+  "optimal_player": 2,
+  "community_players_min": 2,
+  "community_players_max": 2,
+  "min_age": 10,
+  "community_min_age": 8,
+  "min_playtime": 5,
+  "max_playtime": 5,
+  "optimal_playtime": 5,
+  "weight": 1.52,
+  "bayes_avg": 5.71,
+  "stddev": 1.51,
+  "bgg_rank": 6243,
+  "users_rated": 838,
+  "year_published": 1999,
+  "image_url": "https://cf.geekdo-images.com/RHhz745U6a5ZSsfXHuyqFw__original/img/7szsaVrkei4B2CCBekJT3aShtNY=/0x0/filters:format(jpeg)/pic59279.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/RHhz745U6a5ZSsfXHuyqFw__small/img/y_he4CwD2iEZN-6SpqTRW47tTuU=/fit-in/200x150/filters:strip_icc()/pic59279.jpg",
+  "description": "This game gained a quick following after one of the major gaming conventions of 1999. It features several characters, represented on actual stickpin buttons, that each have a unique allowance of polyhedral dice. These dice endow each character with fairly unique combat abilities. Players roll the dice against each other and take their opponents' dice as casualties. The object of the game is take out the most die 'sides' during the combat. It's quite simple, quite inventive, and deeper than it would seem at first.",
+  "mechanics": [
+    {
+      "bgg_id": 2072,
+      "name": "Dice Rolling"
+    },
+    {
+      "bgg_id": 2661,
+      "name": "Push Your Luck"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1044,
+      "name": "Collectible Components"
+    },
+    {
+      "bgg_id": 1017,
+      "name": "Dice"
+    },
+    {
+      "bgg_id": 1046,
+      "name": "Fighting"
+    },
+    {
+      "bgg_id": 1120,
+      "name": "Print & Play"
+    }
+  ]
+}

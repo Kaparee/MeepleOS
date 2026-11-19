@@ -1,0 +1,448 @@
+Table games {
+  id uuid [primary key]
+  bgg_id int [not null] // CREATE UNIQUE INDEX uq_games_bgg_id ON games (bgg_id) WHERE deleted_at IS NULL;
+  parent_game_id uuid [null]
+  is_expansion bool [not null, default: false]
+  title varchar(255) [not null]
+  polish_title varchar(255)
+  text_heaviness smallint
+  tutorial_video_url_pl varchar(500)
+  tutorial_video_url_eng varchar(500)
+  publisher varchar(255)
+  designer varchar(255)
+  min_player int
+  max_player int
+  optimal_player int
+  community_players_min int
+  community_players_max int
+  min_age int
+  community_min_age int
+  min_playtime int
+  max_playtime int
+  optimal_playtime int
+  weight decimal(6,4)
+  bayes_avg decimal(6,4)
+  stddev decimal(6,4)
+  bgg_rank int
+  users_rated int
+  year_published int
+  image_url text
+  thumbnail_url text
+  description text
+  local_play_count int [not null, default: 0]
+  local_avg_playtime decimal(6,2)
+  local_avg_rating decimal(4,2)
+  local_rating_count int [not null, default: 0]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table game_copies {
+  id uuid [primary key]
+  game_id uuid [not null]
+  copy_code varchar(50) [not null] // CREATE UNIQUE INDEX uq_game_copies_code ON game_copies (copy_code) WHERE deleted_at IS NULL;
+  nfc_uid varchar(50) [null] // CREATE UNIQUE INDEX uq_game_copies_nfc ON game_copies (nfc_uid) WHERE deleted_at IS NULL;
+  game_status enum('available', 'rented', 'quarantine', 'maintenance', 'lost') [not null]
+  shelf_location varchar(50)
+  play_count int [not null, default: 0]
+  condition_notes text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table mechanics {
+  id uuid [primary key]
+  bgg_id int [not null] //CREATE UNIQUE INDEX uq_mechanics_bgg_id ON mechanics (bgg_id) WHERE deleted_at IS NULL;
+  name varchar(100) [not null]
+  group_name varchar(50)
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table game_mechanics {
+  mechanic_id uuid [not null]
+  game_id uuid [not null]
+  indexes {
+    (mechanic_id, game_id) [pk] }
+}
+
+Table categories {
+  id uuid [pk]
+  bgg_id int [not null] // CREATE UNIQUE INDEX uq_categories_bgg_id ON categories (bgg_id) WHERE deleted_at IS NULL;
+  name varchar(255) [not null]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table game_categories {
+  game_id uuid [not null]
+  category_id uuid [not null]
+  indexes {
+    (game_id, category_id) [pk]
+  }
+}
+
+Table users {
+  id uuid [pk]
+  qr_hmac_secret varchar(64)
+  nickname varchar(20) [default: null] // CREATE UNIQUE INDEX uq_users_nickname ON users (nickname) WHERE deleted_at IS NULL;
+  name varchar(50) [default: null]
+  surname varchar(50) [default: null]
+  email varchar(255) [not null] //CREATE UNIQUE INDEX uq_users_email ON users (email) WHERE deleted_at IS NULL;
+  phone_number varchar(50) [default: null] //CREATE UNIQUE INDEX uq_users_phone ON users (phone_number) WHERE deleted_at IS NULL;
+  hash_password varchar(255) [default: null]
+  birth_date date
+  verification_code varchar(255)
+  reset_password_token varchar(255)
+  account_status enum('normal', 'shadow', 'restricted', 'banned') [not null, default: 'normal']
+  user_role enum('customer', 'staff', 'manager', 'admin') [not null, default: 'customer']
+  experience_points int [not null, default: 0]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  verification_at timestamptz
+  reset_token_expires_at timestamptz
+  deleted_at timestamptz
+}
+
+Table refresh_tokens {
+  id uuid [pk]
+  user_id uuid [not null]
+  token_hash varchar(255) [not null]
+  user_agent varchar(255) [not null]
+  ip_address varchar(255) [not null]
+  expires_at timestamptz [not null]
+  created_at timestamptz [not null, default: `now()`]
+  revoked_at timestamptz
+  replaced_by_token_id uuid
+}
+
+Table zones {
+  id uuid [pk]
+  name varchar(50) [not null]
+  grid_width int [not null]
+  grid_height int [not null]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table tables {
+  id uuid [pk]
+  zone_id uuid [not null]
+  table_number varchar(10) [not null] // CREATE UNIQUE INDEX uq_tables_zone_number ON tables (zone_id, table_number) WHERE deleted_at IS NULL;
+  max_players int [not null]
+  pos_x int [not null]
+  pos_y int [not null]
+  width int [not null]
+  height int [not null]
+  shape enum('rectangle', 'circle') [not null, default: 'rectangle']
+  nfc_uid varchar(50) // CREATE UNIQUE INDEX uq_tables_nfc ON tables (nfc_uid) WHERE deleted_at IS NULL;
+  table_status enum('occupied', 'free', 'to_clean', 'merged', 'out_of_order') [not null, default: 'free']
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table table_sessions {
+  id uuid [pk]
+  table_id uuid [not null] //CREATE UNIQUE INDEX uq_active_table_session ON table_sessions (table_id) WHERE session_status = 'active' AND deleted_at IS NULL;
+  booking_id uuid [null]
+  host_user_id uuid [not null]
+  start_time timestamptz [not null, default: `now()`]
+  end_time timestamptz
+  estimated_end_time timestamptz
+  session_status enum('active', 'closed', 'abandoned') [not null, default: 'active']
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table session_players {
+  session_id uuid [not null]  
+  user_id uuid [not null] // CREATE UNIQUE INDEX uq_active_player ON session_players (user_id) WHERE left_at IS NULL;
+  joined_at timestamptz [not null, default: `now()`]
+    left_at timestamptz [null]
+  indexes {
+    (user_id, session_id) [pk] } 
+}
+
+Table rentals {
+  id uuid [pk]
+  session_id uuid [not null]
+  game_copy_id uuid [not null] //CREATE UNIQUE INDEX uq_active_game_copy_rental ON rentals (game_copy_id) WHERE returned_at IS NULL AND deleted_at IS NULL;
+  rented_by_user_id uuid [not null]
+  rented_at timestamptz  [not null, default: `now()`]
+  returned_at timestamptz
+  status_before varchar(255)
+  status_after varchar(255)
+  game_completed boolean
+  issue_description text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table rental_damage_photos { 
+  id uuid [pk]
+  rental_id uuid [not null]
+  photo_url varchar(255) [not null]
+  uploaded_by_user_id uuid
+  created_at timestamptz [not null, default: `now()`]
+}
+
+Table bookings {
+  id uuid [pk]
+  booking_group_id uuid [null] // CREATE INDEX idx_bookings_group ON bookings (booking_group_id) WHERE booking_group_id IS NOT NULL;
+  user_id uuid [not null]
+  table_id uuid [not null] // CREATE INDEX idx_bookings_collision ON bookings (table_id, start_time, end_time) WHERE (booking_status IN ('pending', 'confirmed')) AND deleted_at IS NULL;
+  start_time timestamptz  [not null]
+  end_time timestamptz [not null]
+  guest_count int [not null]
+  booking_status enum('pending', 'confirmed', 'canceled', 'no_show', 'closed') [not null, default: 'pending']
+  special_requests text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table menu_items {
+  id uuid [pk]
+  name varchar(50) [not null]
+  description varchar(255)
+  category varchar(50) [not null]
+  price decimal(10,2) [not null]
+  is_available boolean [not null, default: true]
+  image_url varchar(255)
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table orders {
+  id uuid [pk]
+  session_id uuid
+  user_id uuid
+  order_status enum('new', 'in_preparation', 'ready', 'delivered', 'canceled') [not null, default: 'new']
+  total_amount decimal(10,2) [not null, default: 0.00]
+  idempotency_key uuid [unique, not null]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table order_items {
+  id uuid [pk]
+  order_id uuid [not null]
+  item_id uuid [not null]
+  item_name varchar(50) [not null]
+  quantity int [not null, default: 1] // CHECK (quantity > 0)
+  item_status enum('new', 'in_preparation', 'ready', 'delivered', 'canceled') [not null, default: 'new']
+  unit_price decimal(10, 2) [not null]
+  item_notes varchar(255)
+}
+
+Table events {
+  id uuid [pk]
+  zone_id uuid [null] 
+  title varchar(255) [not null]
+  start_time timestamptz [not null]
+  end_time timestamptz [not null]
+  max_participants int
+  registration_needed boolean
+  event_status enum('draft', 'open', 'in_progress', 'completed', 'canceled') [not null, default: 'draft']
+  description text
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table event_games {
+  event_id uuid [not null]
+  game_id uuid [not null]
+  indexes {
+    (game_id, event_id) [pk] }
+}
+
+Table event_registrations {
+  id uuid [pk]
+  event_id uuid [not null]
+  user_id uuid [not null]
+  registered_at timestamptz [not null, default: `now()`]
+  register_status enum('confirmed', 'waitlist', 'canceled') [not null, default: 'confirmed']
+  indexes {
+  (event_id, user_id) [unique]}
+}
+
+Table match_sessions {
+  id uuid [pk]
+  game_id uuid [not null]
+  table_session_id uuid
+  event_id uuid
+  played_at timestamptz [not null]
+  duration_minutes int
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+  // CONSTRAINT chk_match_origin CHECK (table_session_id IS NOT NULL OR event_id IS NOT NULL)
+}
+
+Table match_scores {
+  id uuid [pk]
+  match_session_id uuid [not null]
+  user_id uuid [not null]
+  score decimal(10,2)
+  result enum('win', 'loss', 'draw', 'coop_win', 'coop_loss') [not null]
+  xp_earned int [not null, default: 0]
+  indexes {
+  (match_session_id, user_id) [unique]}
+}
+
+Table chat_messages {
+  id uuid [pk]
+  channel_type enum('table', 'event', 'lfg') [not null]
+  channel_id uuid [null]
+  sender_id uuid [not null]
+  message_text text [not null] // CREATE INDEX idx_chat_messages_channel ON chat_messages (channel_type, channel_id, created_at DESC) WHERE deleted_at IS NULL;
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz 
+  // CONSTRAINT chk_chat_channel CHECK ((channel_type = 'lfg' AND channel_id IS NULL) OR (channel_type IN ('table', 'event') AND channel_id IS NOT NULL))
+}
+
+Table payments {
+  id uuid [pk]
+  table_session_id uuid [null] // CREATE UNIQUE INDEX uq_payments_session ON payments (table_session_id) WHERE table_session_id IS NOT NULL AND payment_status IN ('pending', 'completed');
+  user_id uuid [null]
+  order_id uuid [null] // CREATE UNIQUE INDEX uq_payments_order ON payments (order_id) WHERE order_id IS NOT NULL AND payment_status IN ('pending', 'completed');
+  idempotency_key uuid [unique, not null] 
+  amount decimal(10,2) [not null]
+  payment_status enum('pending', 'completed', 'failed', 'refunded') [not null, default: 'pending']
+  payment_method enum('cash', 'card', 'blik') [not null]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  paid_at timestamptz 
+  // CONSTRAINT chk_payment_target CHECK (num_nonnulls(table_session_id, order_id) = 1)
+  // CONSTRAINT chk_session_payment_user CHECK (table_session_id IS NULL OR user_id IS NOT NULL)
+}
+
+Table user_unlocked_mechanics {
+  user_id uuid [not null]
+  mechanic_id uuid [not null]
+  unlocked_at timestamptz [not null, default: `now()`]
+  first_game_id uuid
+  indexes {
+    (user_id, mechanic_id) [pk]
+    mechanic_id
+  }
+}
+
+Table user_ratings {
+  user_id uuid [not null]
+  game_id uuid [not null]
+  rating decimal(4,2) [not null] // CHECK (rating >= 1.0 AND rating <= 10.0)
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  indexes {
+    (game_id, user_id) [pk]
+  }
+}
+
+Table friendships {
+  id uuid [pk]
+  user_id uuid [not null]
+  friend_id uuid [not null]
+  status enum('pending', 'accepted', 'blocked') [not null, default: 'accepted']
+  created_at timestamptz [not null, default: `now()`]
+  indexes {
+    (user_id, friend_id) [unique]
+  }
+}
+
+Table operating_hours {
+  id uuid [pk]
+  day_of_week smallint [not null]
+  open_time time [not null]
+  close_time time [not null]
+  is_closed boolean [not null, default: false]
+  special_date date [null]
+}
+
+Table achievements {
+  id uuid [pk]
+  code varchar(100) [not null, unique]
+  name varchar(255) [not null, unique]
+  description text [not null]
+  icon_url varchar(500)
+  xp_rewards int [default: 0]
+  category enum('gameplay', 'social', 'spending', 'bgg', 'weekly')
+  valid_from timestamptz [null]
+  valid_to timestamptz [null]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz 
+}
+
+Table user_achievements {
+  id uuid [pk]
+  user_id uuid [not null]
+  achievement_id uuid [not null]
+  unlocked_at timestamptz [not null, default: `now()`]
+  indexes {
+    (user_id, achievement_id) [unique]
+  }
+}
+
+
+
+Ref: game_copies.game_id > games.id
+Ref: mechanics.id < game_mechanics.mechanic_id
+Ref: game_mechanics.game_id > games.id
+Ref: table_sessions.table_id > tables.id
+Ref: table_sessions.host_user_id > users.id
+Ref: session_players.session_id > table_sessions.id
+Ref: table_sessions.id < rentals.session_id
+Ref: rentals.game_copy_id > game_copies.id
+Ref: session_players.user_id > users.id
+Ref: users.id < bookings.user_id
+Ref: tables.id < bookings.table_id
+Ref: order_items.order_id > orders.id
+Ref: menu_items.id < order_items.item_id
+Ref: orders.session_id > table_sessions.id
+Ref: orders.user_id > users.id
+Ref: event_games.event_id > events.id
+Ref: games.id < event_games.game_id  
+Ref: event_registrations.event_id > events.id
+Ref: event_registrations.user_id > users.id
+Ref: match_sessions.game_id > games.id
+Ref: match_sessions.table_session_id > table_sessions.id
+Ref: match_sessions.event_id > events.id
+Ref: match_scores.match_session_id > match_sessions.id
+Ref: match_scores.user_id > users.id
+Ref: chat_messages.sender_id > users.id
+Ref: payments.table_session_id > table_sessions.id
+Ref: users.id < payments.user_id
+Ref: user_unlocked_mechanics.user_id > users.id
+Ref: mechanics.id < user_unlocked_mechanics.mechanic_id
+Ref: refresh_tokens.user_id > users.id
+Ref: user_unlocked_mechanics.first_game_id > games.id
+Ref: tables.zone_id > zones.id
+Ref: rentals.rented_by_user_id > users.id
+Ref: payments.order_id > orders.id
+Ref: refresh_tokens.replaced_by_token_id > refresh_tokens.id
+Ref: table_sessions.booking_id > bookings.id
+Ref: events.zone_id > zones.id
+Ref: game_categories.game_id > games.id
+Ref: game_categories.category_id > categories.id
+Ref: rental_damage_photos.rental_id > rentals.id
+Ref: rental_damage_photos.uploaded_by_user_id > users.id
+Ref: user_ratings.user_id > users.id
+Ref: user_ratings.game_id > games.id
+Ref: games.parent_game_id > games.id
+Ref: friendships.user_id > users.id
+Ref: friendships.friend_id > users.id
+Ref: user_achievements.user_id > users.id
+Ref: user_achievements.achievement_id > achievements.id

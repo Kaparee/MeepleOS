@@ -1,0 +1,53 @@
+{
+  "bgg_id": 4,
+  "title": "Tal der Könige",
+  "polish_title": null,
+  "text_heaviness": 1,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": null,
+  "publisher": "KOSMOS",
+  "designer": "Christian Beierer",
+  "min_player": 2,
+  "max_player": 4,
+  "optimal_player": 3,
+  "community_players_min": 2,
+  "community_players_max": 4,
+  "min_age": 12,
+  "community_min_age": 12,
+  "min_playtime": 60,
+  "max_playtime": 60,
+  "optimal_playtime": 60,
+  "weight": 2.69,
+  "bayes_avg": 5.64,
+  "stddev": 1.24,
+  "bgg_rank": 7828,
+  "users_rated": 368,
+  "year_published": 1992,
+  "image_url": "https://cf.geekdo-images.com/nYiYhUlatT2DpyXaJqXK3w__original/img/2NNluROL0K_q4H8yMxIyoiHXnxc=/0x0/filters:format(jpeg)/pic285299.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/nYiYhUlatT2DpyXaJqXK3w__small/img/igbXSLFwM7XAz78r1FeVVVe6gJk=/fit-in/200x150/filters:strip_icc()/pic285299.jpg",
+  "description": "When you see the triangular box and the luxurious, large blocks of Tal der Könige (German: \"Valley of the Kings\"), you can tell this game was designed to be beautiful as well as functional. The object of the game is to build pyramids out of the different colored blocks. A pyramid scores more points when it's made from a few colors, but it's much harder to consistently outbid the other players for the necessary blocks. The game is over when the Pharoah's Pyramid in the center is completed, which is built using all the blocks that the players don't use during the course of the game. Final round 1990 Hippodice Spieleautorenwettbewerb.",
+  "mechanics": [
+    {
+      "bgg_id": 2001,
+      "name": "Action Points"
+    },
+    {
+      "bgg_id": 2080,
+      "name": "Area Majority / Influence"
+    },
+    {
+      "bgg_id": 2012,
+      "name": "Auction / Bidding"
+    },
+    {
+      "bgg_id": 2004,
+      "name": "Set Collection"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1050,
+      "name": "Ancient"
+    }
+  ]
+}

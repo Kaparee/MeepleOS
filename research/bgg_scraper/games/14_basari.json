@@ -1,0 +1,49 @@
+{
+  "bgg_id": 14,
+  "title": "Basari",
+  "polish_title": null,
+  "text_heaviness": 1,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": null,
+  "publisher": "F.X. Schmid",
+  "designer": "Reinhard Staupe",
+  "min_player": 3,
+  "max_player": 4,
+  "optimal_player": 4,
+  "community_players_min": 3,
+  "community_players_max": 4,
+  "min_age": 10,
+  "community_min_age": 10,
+  "min_playtime": 25,
+  "max_playtime": 25,
+  "optimal_playtime": 25,
+  "weight": 1.84,
+  "bayes_avg": 6.03,
+  "stddev": 1.23,
+  "bgg_rank": 3080,
+  "users_rated": 1788,
+  "year_published": 1998,
+  "image_url": "https://cf.geekdo-images.com/NIgg_RpaqVFpYnBSF7wGBQ__original/img/jA5azl-Ios5loeQobGOwFdu6nQw=/0x0/filters:format(jpeg)/pic391903.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/NIgg_RpaqVFpYnBSF7wGBQ__small/img/BrlkRHF4vEns7T7LdutbqAffsZY=/fit-in/200x150/filters:strip_icc()/pic391903.jpg",
+  "description": "Basari is a game of gem merchants competing in a marketplace\": racing, collecting, trading, and predicting what the other merchants will do. To start the game, players receive 12 gemstones (3 each of 4 colors). Each turn there will be a movement phase and an action phase: For movement, everyone simultaneously rolls their die and moves their markers around a track. They then choose one of three different actions to perform. The actions are: - to take a variety of gems from a market stall, - to immediately score from between 4 and 7 points, or - to roll and move again and also collect points. The action cards are revealed simultaneously. If only 1 player chose a particular action, they simply perform that action. If 2 players chose the same action, they barter back and forth with gemstones. One player will eventually accept the other's offer of gems, and the other will take the action. If 3 or 4 players all chose the same action card, that action is cancelled. Note that in 4-player games, there will always be a conflict in choice of 3 actions, so much more negotiating goes on. A new turn begins with everyone rolling their die, moving, then choosing and revealing their action cards. When any merchant piece completes a lap around the board, the round ends and bonus points are awarded based on who has the majority in each gem color and who has completed a lap. After three rounds, the game is over and the highest score wins. Re-implemented by: Edel, Stein & Reich",
+  "mechanics": [
+    {
+      "bgg_id": 2035,
+      "name": "Roll / Spin and Move"
+    },
+    {
+      "bgg_id": 2004,
+      "name": "Set Collection"
+    },
+    {
+      "bgg_id": 2020,
+      "name": "Simultaneous Action Selection"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1026,
+      "name": "Negotiation"
+    }
+  ]
+}

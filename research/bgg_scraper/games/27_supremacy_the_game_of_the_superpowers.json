@@ -1,0 +1,57 @@
+{
+  "bgg_id": 27,
+  "title": "Supremacy: The Game of the Superpowers",
+  "polish_title": null,
+  "text_heaviness": 2,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": "http://www.youtube.com/watch?v=9-hHDwt4dZs",
+  "publisher": "Supremacy Games",
+  "designer": "Robert J. Simpson",
+  "min_player": 2,
+  "max_player": 6,
+  "optimal_player": 4,
+  "community_players_min": 3,
+  "community_players_max": 6,
+  "min_age": 12,
+  "community_min_age": 16,
+  "min_playtime": 120,
+  "max_playtime": 300,
+  "optimal_playtime": 300,
+  "weight": 3.12,
+  "bayes_avg": 5.53,
+  "stddev": 2.02,
+  "bgg_rank": 16703,
+  "users_rated": 1410,
+  "year_published": 1984,
+  "image_url": "https://cf.geekdo-images.com/DEX9Es2Bh_SoByJDo6q5zQ__original/img/aMAloVD05yHWIsTEFfobzkEPxX4=/0x0/filters:format(jpeg)/pic368339.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/DEX9Es2Bh_SoByJDo6q5zQ__small/img/8tkqu7P4vy1da735dGPY2xE8gXg=/fit-in/200x150/filters:strip_icc()/pic368339.jpg",
+  "description": "Supremacy pits conventional superpowers against one another for control of the earth. Along the lines of modern warfare Risk, only with an integrated supply/demand economic system. Warfare comes in all forms from conventional, biological, chemical and all the way to nuclear. Neat little plastic mushroom clouds are included to show where regions of the earth have been blasted, and if nuclear winter occurs, all players lose. The game also spawned a great many supplements to expand the game further.",
+  "mechanics": [
+    {
+      "bgg_id": 2013,
+      "name": "Commodity Speculation"
+    },
+    {
+      "bgg_id": 2072,
+      "name": "Dice Rolling"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1021,
+      "name": "Economic"
+    },
+    {
+      "bgg_id": 1069,
+      "name": "Modern Warfare"
+    },
+    {
+      "bgg_id": 1001,
+      "name": "Political"
+    },
+    {
+      "bgg_id": 1019,
+      "name": "Wargame"
+    }
+  ]
+}

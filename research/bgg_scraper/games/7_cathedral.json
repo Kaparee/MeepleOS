@@ -1,0 +1,65 @@
+{
+  "bgg_id": 7,
+  "title": "Cathedral",
+  "polish_title": null,
+  "text_heaviness": 1,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": "http://www.youtube.com/watch?v=Nwfqdgil1Nc",
+  "publisher": "Brightway Products Ltd",
+  "designer": "Robert P. Moore",
+  "min_player": 2,
+  "max_player": 2,
+  "optimal_player": 2,
+  "community_players_min": 2,
+  "community_players_max": 2,
+  "min_age": 8,
+  "community_min_age": 8,
+  "min_playtime": 20,
+  "max_playtime": 20,
+  "optimal_playtime": 20,
+  "weight": 1.78,
+  "bayes_avg": 6.11,
+  "stddev": 1.35,
+  "bgg_rank": 2645,
+  "users_rated": 3863,
+  "year_published": 1979,
+  "image_url": "https://cf.geekdo-images.com/78Dgd-b_1_xEv4OXVKdaag__original/img/1V-WCnoHrm2tDjBHpXfxoKp2rCo=/0x0/filters:format(jpeg)/pic7012177.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/78Dgd-b_1_xEv4OXVKdaag__small/img/mrvl6BsXE-IGkqt2otFbIe7zYV4=/fit-in/200x150/filters:strip_icc()/pic7012177.jpg",
+  "description": "In Cathedral, each player has a set of pieces of a different color. The pieces are in the shapes of buildings, covering from one to five square units. The first player takes the single neutral Cathedral piece and places it onto the board. Players then alternate placing one of their buildings onto the board until neither player can place another building. Players capture territory by surrounding areas that are occupied by at most one opponent or neutral building. A captured piece is removed and captured territory becomes off-limits to the opponent. The player with the fewest 'square units' of buildings that can't be placed wins.",
+  "mechanics": [
+    {
+      "bgg_id": 2043,
+      "name": "Enclosure"
+    },
+    {
+      "bgg_id": 2048,
+      "name": "Pattern Building"
+    },
+    {
+      "bgg_id": 2940,
+      "name": "Square Grid"
+    },
+    {
+      "bgg_id": 2002,
+      "name": "Tile Placement"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1009,
+      "name": "Abstract Strategy"
+    },
+    {
+      "bgg_id": 1041,
+      "name": "Children's Game"
+    },
+    {
+      "bgg_id": 1029,
+      "name": "City Building"
+    },
+    {
+      "bgg_id": 1086,
+      "name": "Territory Building"
+    }
+  ]
+}

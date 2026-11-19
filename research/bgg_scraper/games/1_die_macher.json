@@ -1,0 +1,69 @@
+{
+  "bgg_id": 1,
+  "title": "Die Macher",
+  "polish_title": "Die Macher",
+  "text_heaviness": 1,
+  "tutorial_video_url_pl": "http://www.youtube.com/watch?v=6fcC1zxp8wg",
+  "tutorial_video_url_eng": "http://www.youtube.com/watch?v=zzO2jeSTAFM",
+  "publisher": "Hans im Glück",
+  "designer": "Karl-Heinz Schmiel",
+  "min_player": 3,
+  "max_player": 5,
+  "optimal_player": 5,
+  "community_players_min": 4,
+  "community_players_max": 5,
+  "min_age": 14,
+  "community_min_age": 14,
+  "min_playtime": 240,
+  "max_playtime": 240,
+  "optimal_playtime": 240,
+  "weight": 4.3,
+  "bayes_avg": 6.97,
+  "stddev": 1.56,
+  "bgg_rank": 539,
+  "users_rated": 6055,
+  "year_published": 1986,
+  "image_url": "https://cf.geekdo-images.com/rpwCZAjYLD940NWwP3SRoA__original/img/yR0aoBVKNrAmmCuBeSzQnMflLYg=/0x0/filters:format(jpeg)/pic4718279.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/rpwCZAjYLD940NWwP3SRoA__small/img/YT6svCVsWqLrDitcMEtyazVktbQ=/fit-in/200x150/filters:strip_icc()/pic4718279.jpg",
+  "description": "Die Macher is a game about seven sequential political races in different regions of Germany. Players are in charge of national political parties, and must manage limited resources to help their party to victory. The winning party will have the most victory points after all the regional elections. There are four different ways of scoring victory points. First, each regional election can supply one to eighty victory points, depending on the size of the region and how well your party does in it. Second, if a party wins a regional election and has some media influence in the region, then the party will receive some media-control victory points. Third, each party has a national party membership which will grow as the game progresses and this will supply a fair number of victory points. Lastly, in some editions, parties score some victory points if their party platform matches the national opinions at the end of the game. The 1986 edition (Hans im Glück) featured four parties from the old West Germany and supported 3-4 players The 1997 edition (Moskito Spiele) supports up to five players in the re-united Germany and updated several features of the rules as well The 2006 edition (Valley Games) also supports up to five players and adds a shorter five-round variant and additional rules updates by the original designer The 2019 edition (Indie Game Studios/Spielworxx Kickstarter) simplified the game and adds a four-round option",
+  "mechanics": [
+    {
+      "bgg_id": 2916,
+      "name": "Alliances"
+    },
+    {
+      "bgg_id": 2080,
+      "name": "Area Majority / Influence"
+    },
+    {
+      "bgg_id": 2012,
+      "name": "Auction / Bidding"
+    },
+    {
+      "bgg_id": 2072,
+      "name": "Dice Rolling"
+    },
+    {
+      "bgg_id": 2040,
+      "name": "Hand Management"
+    },
+    {
+      "bgg_id": 2020,
+      "name": "Simultaneous Action Selection"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1021,
+      "name": "Economic"
+    },
+    {
+      "bgg_id": 1026,
+      "name": "Negotiation"
+    },
+    {
+      "bgg_id": 1001,
+      "name": "Political"
+    }
+  ]
+}

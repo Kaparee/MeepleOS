@@ -1,0 +1,93 @@
+{
+  "bgg_id": 22,
+  "title": "Magic Realm",
+  "polish_title": null,
+  "text_heaviness": 3,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": null,
+  "publisher": "The Avalon Hill Game Co",
+  "designer": "Richard Hamblen",
+  "min_player": 1,
+  "max_player": 16,
+  "optimal_player": 3,
+  "community_players_min": 1,
+  "community_players_max": 8,
+  "min_age": 12,
+  "community_min_age": 16,
+  "min_playtime": 60,
+  "max_playtime": 240,
+  "optimal_playtime": 240,
+  "weight": 4.56,
+  "bayes_avg": 6.29,
+  "stddev": 2.0,
+  "bgg_rank": 1948,
+  "users_rated": 2230,
+  "year_published": 1979,
+  "image_url": "https://cf.geekdo-images.com/X-wQkavJHlZaUqlL1ClEsA__original/img/VSzycwqmBGWE5aDokPi1aR57WUo=/0x0/filters:format(jpeg)/pic148345.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/X-wQkavJHlZaUqlL1ClEsA__small/img/UIw4ZFZqMTqMlArymmHI591Gm-k=/fit-in/200x150/filters:strip_icc()/pic148345.jpg",
+  "description": "From the 2nd edition rulebook intro for MAGIC REALM: MAGIC REALM is a game of fantasy adventuring, set in a land filled with monsters, fabulous treasures, great warriors, and magicians. The scene is set in the ruins of a mighty kingdom, now inhabited by sparse groups of natives and swarms of monsters. Beneath it all are the rich remnants of a magical civilization, scattered and lost across the map. To this scene come the adventurers, seekers of riches and fame, to make a name for themselves in this promising field. Swordsman and Dwarf, Magician and Sorceror, the humans and the half-humans come seeking to loot the legendary riches of a lost civilization. Now you can play the part of one of these adventurers, stepping into an unknown Realm of magic and monsters, battles and treasures. As a player, you will take on the role of one of the sixteen major characters who are represented in detail in the game. You will control where he goes, what he tries to do, how he handles himself in combat, and much more. In the course of the game, you will run into deadly monsters, tribes of humans ranging from old friends to sworn enemies, and treasures that will enhance your abilities in many ways. MAGIC REALM is a complex game designed to recapture the suspense and desperate struggles of fantasy literature. The game creates a small but complete fantasy world, where each game is a new adventure with a new map where everything lies hidden at new locations. The game includes many more playing pieces than are actually used in a single playing. The additional pieces are set up and can appear, depending on the directions in which the characters explore, but many of the treasure troves, treasures, and spells will still be set up, unfound, when the game ends, and many of the monsters and natives might never be met. The result is an extremely unpredictable game full of surprises, a game that plays very differently each time it is played. The complete game system includes hiking, hiding and searching, fatigue, wounds, rest, trade, hiring natives, and combat between characters, monsters, and natives using a variety of weapons on horseback and afoot, as well as many magical effects. Between exploring a new land where the mountains, caves, valleys, and woods change every game, and not knowing what you will find in each place, you will find each game a new and unpredictable adventure, filled with surprises. You will find this like no other board game you have ever played. Avalon Hill Complexity rating - 9 See also the list of articles about Magic Realm in The General.",
+  "mechanics": [
+    {
+      "bgg_id": 2689,
+      "name": "Action Queue"
+    },
+    {
+      "bgg_id": 2072,
+      "name": "Dice Rolling"
+    },
+    {
+      "bgg_id": 2850,
+      "name": "Events"
+    },
+    {
+      "bgg_id": 2011,
+      "name": "Modular Board"
+    },
+    {
+      "bgg_id": 2055,
+      "name": "Paper-and-Pencil"
+    },
+    {
+      "bgg_id": 2685,
+      "name": "Player Elimination"
+    },
+    {
+      "bgg_id": 2078,
+      "name": "Point to Point Movement"
+    },
+    {
+      "bgg_id": 2028,
+      "name": "Role Playing"
+    },
+    {
+      "bgg_id": 2020,
+      "name": "Simultaneous Action Selection"
+    },
+    {
+      "bgg_id": 2015,
+      "name": "Variable Player Powers"
+    },
+    {
+      "bgg_id": 2897,
+      "name": "Variable Set-up"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1022,
+      "name": "Adventure"
+    },
+    {
+      "bgg_id": 1020,
+      "name": "Exploration"
+    },
+    {
+      "bgg_id": 1010,
+      "name": "Fantasy"
+    },
+    {
+      "bgg_id": 1046,
+      "name": "Fighting"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "bgg_id": 16,
+  "title": "MarraCash",
+  "polish_title": null,
+  "text_heaviness": 1,
+  "tutorial_video_url_pl": null,
+  "tutorial_video_url_eng": null,
+  "publisher": "KOSMOS",
+  "designer": "Stefan Dorra",
+  "min_player": 3,
+  "max_player": 4,
+  "optimal_player": 4,
+  "community_players_min": 3,
+  "community_players_max": 4,
+  "min_age": 12,
+  "community_min_age": 10,
+  "min_playtime": 60,
+  "max_playtime": 60,
+  "optimal_playtime": 60,
+  "weight": 2.16,
+  "bayes_avg": 6.04,
+  "stddev": 1.28,
+  "bgg_rank": 3004,
+  "users_rated": 1316,
+  "year_published": 1996,
+  "image_url": "https://cf.geekdo-images.com/MG02VVqE39lZZdOgtJU0mg__original/img/8ORCptrP1isD69HfHLq_C9tWnh0=/0x0/filters:format(jpeg)/pic573942.jpg",
+  "thumbnail_url": "https://cf.geekdo-images.com/MG02VVqE39lZZdOgtJU0mg__small/img/okBWket3jiozTnncTFzXEM_Lpag=/fit-in/200x150/filters:strip_icc()/pic573942.jpg",
+  "description": "Taking on the roles of shop owners in the Moroccan marketplace, players buy various shops, as color-coded tourists in the form of neat little wooden people in hats start showing up at the entry gate. Players can then move them into their own like-colored shops to earn money or move them into opponents' shops for a share of the profits. After all the tourists have been placed onto the board, the player with the biggest bankroll takes the victory. This game combines some great auction elements with spatial relationships for an appealing overall effect. Contents: 1 game board 1 blue auction stone 1 counter sheet with: - 24 shop signs (6 each of Ali, Anfa, Omar and Leila) - 4 player aid cards 24 plastic stands 54 pawns = \"visitors\" (14 yellow, 10 each of red, blue, green and purple) 25 game cards with \"souvenirs\" Money in different values (500, 200, 100 and 25 Dirhams)",
+  "mechanics": [
+    {
+      "bgg_id": 2012,
+      "name": "Auction / Bidding"
+    },
+    {
+      "bgg_id": 3103,
+      "name": "Resource Queue"
+    }
+  ],
+  "categories": [
+    {
+      "bgg_id": 1021,
+      "name": "Economic"
+    }
+  ]
+}
