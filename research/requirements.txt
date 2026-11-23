@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+asyncpg
+pydantic[email]
+pydantic-settings
+bcrypt
+pyjwt
+greenlet
+requests

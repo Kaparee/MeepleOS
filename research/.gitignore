@@ -1,0 +1,19 @@
+# Zmienne środowiskowe i sekrety (NIGDY nie commitować)
+.env
+.env.*
+.env.py
+!.env.example
+
+# Środowisko Python i cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+
+# PyCharm / IDE
+.idea/
+.vscode/
+

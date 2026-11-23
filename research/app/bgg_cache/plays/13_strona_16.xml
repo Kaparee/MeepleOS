@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?><plays total="322246" page="16" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+<play id="120295593" userid="4755620" date="2026-10-27" quantity="1" length="36" incomplete="0" nowinstats="0" location="Liga Argentina de Catan Base">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="IvanRam" userid="4755620" name="Ivan" startposition="" color="Rojo" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="Negro" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="Naranja" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="Azul" score="7" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120290895" userid="2663823" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="Work">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Joe Compton" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="SourSalamiGroup" userid="2663823" name="Jordan Heuer" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="James Medina" startposition="start player" color="" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120290771" userid="2652747" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="B.">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#bgstats</comments>
+									<players>
+									<player username="LaMarquise" userid="2652747" name="GVO" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="m." startposition="" color="" score="8" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="T." startposition="" color="" score="4" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120290239" userid="2663823" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="Work">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="SourSalamiGroup" userid="2663823" name="Jordan Heuer" startposition="" color="" score="4" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="James Medina" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Joe Compton" startposition="start player" color="" score="4" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120289574" userid="2663823" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="Work">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Joe Compton" startposition="" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="James Medina" startposition="start player" color="" score="4" new="0" rating="0" win="0" />
+						<player username="SourSalamiGroup" userid="2663823" name="Jordan Heuer" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120289124" userid="3232960" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="Moses Manor">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="MarinaGirl92" userid="3232960" name="Karen" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Samir" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="J.R." startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Cosmo" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120286259" userid="1668359" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="BoardGameArena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="vegetablevoice" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Luisgolas" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="gizmobj" userid="1668359" name="Billy" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120286258" userid="1668359" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="BoardGameArena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Monyan" startposition="" color="" score="9" new="0" rating="0" win="0" />
+						<player username="gizmobj" userid="1668359" name="Billy" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="dornado" startposition="" color="" score="8" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120285568" userid="389048" date="2026-10-27" quantity="1" length="94" incomplete="0" nowinstats="0" location="Shasta's">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Dave Krogh" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="nyuhase" userid="389048" name="Nicoley" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="nateside3" userid="4327966" name="Nathan Aronoff" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="RyanRomanik" userid="524320" name="Ryan Romanik" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120285344" userid="3930808" date="2026-10-27" quantity="1" length="90" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>M won, followed by T &amp; S (7 points each) and D (3 points).</comments>
+								</play>
+	<play id="120282639" userid="2059888" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tsehlo's, Vienna, Austria">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120281577" userid="4348494" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120280791" userid="4771421" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Mit Fischerweiterung</comments>
+									<players>
+									<player username="N3ptun" userid="4771421" name="Tonio" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Radmila" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Diana" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Lucca" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120277543" userid="3510939" date="2026-10-27" quantity="1" length="68" incomplete="0" nowinstats="0" location="Z.">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#Playstation
+
+Played with expansions:
+- [thing=926]CATAN: Cities &amp;amp; Knights[/thing] ([geekurl=/play/120277545]play[/geekurl])</comments>
+									<players>
+									<player username="" userid="0" name="P." startposition="3" color="" score="11" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="P." startposition="4" color="" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="S." startposition="2" color="" score="10" new="0" rating="0" win="0" />
+						<player username="yuloxxian" userid="3510939" name="Thorsten" startposition="1" color="" score="13" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120277043" userid="4404323" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="casa">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="hector" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="javier" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="jorge" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="nere" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120276433" userid="4187404" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="работа">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120276070" userid="2814786" date="2026-10-27" quantity="1" length="81" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Stacey K" startposition="" color="" score="" new="0" rating="0" win="1" />
+						<player username="kingdagger" userid="2814786" name="Charlie King" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Esme" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120274682" userid="3510939" date="2026-10-27" quantity="1" length="35" incomplete="0" nowinstats="0" location="Z.">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#Playstation
+
+Played with expansions:
+- [thing=367791]CATAN: The Helpers[/thing] ([geekurl=/play/120274684]play[/geekurl])</comments>
+									<players>
+									<player username="" userid="0" name="P." startposition="1" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="P." startposition="2" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="S." startposition="4" color="" score="10" new="0" rating="0" win="1" />
+						<player username="yuloxxian" userid="3510939" name="Thorsten" startposition="3" color="" score="7" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120270904" userid="2764405" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Maria" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120269289" userid="4348494" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120268916" userid="4781659" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120267920" userid="288584" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="Ostrobramska">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Harbormaster／Fishermen
+
+Played with expansions:
+- [thing=27760]Catan: Traders &amp;amp; Barbarians[/thing]</comments>
+									<players>
+									<player username="" userid="0" name="Aga" startposition="" color="" score="11" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tomcio" startposition="" color="" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Wojtas" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120266168" userid="4473917" date="2026-10-27" quantity="1" length="13" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Georg" startposition="" color="Rot" score="11" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Ida" startposition="" color="Grün" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Max" startposition="" color="Gelb" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Nele" startposition="" color="Pink" score="9" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120264765" userid="1582772" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="Board Game Arena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Played with expansions:
+- BGA Premium Membership</comments>
+									<players>
+									<player username="" userid="0" name="Anonymous player" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="superproxy" userid="1582772" name="Randell" startposition="" color="" score="3" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120261521" userid="2452238" date="2026-10-27" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="121038029" userid="3807596" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="BoardGameArena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="stoneville" startposition="" color="" score="4" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="chuables07" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="bachand" startposition="" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Filipems" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="121011113" userid="4605179" date="2026-10-26" quantity="41" length="4920" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120835562" userid="4754982" date="2026-10-26" quantity="1" length="60" incomplete="0" nowinstats="0" location="Mi Casa">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Wandi" startposition="" color="Verde" score="6" new="0" rating="0" win="0" />
+						<player username="Tinchotazo" userid="4754982" name="Martin Corti" startposition="" color="Azul" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Luisa" startposition="" color="Blanco" score="8" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120410522" userid="43" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="Digital-BoardGameArena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Baby D" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="jeanamjoon" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						<player username="MarkEJohnson" userid="43" name="Mark Johnson" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120295680" userid="4755620" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="Liga Argentina de Catan Base">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="IvanRam" userid="4755620" name="Ivan" startposition="" color="Azul" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="Naranja" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120286153" userid="166663" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="Orlando">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="WastinAwayAgain" userid="166663" name="Robyn Miller" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Billie Kay" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tom Getz" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120264670" userid="189806" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="home!!">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>3 plyers
+I won</comments>
+								</play>
+	<play id="120260983" userid="3446081" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="Maripe" userid="3446081" name="" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120257053" userid="1215441" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Played with expansions:
+- [thing=325]Catan: Seafarers[/thing]</comments>
+									<players>
+									<player username="" userid="0" name="D." startposition="" color="" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Whooten" startposition="" color="" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="D." startposition="" color="" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="G." startposition="" color="" score="14" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120256649" userid="4601796" date="2026-10-26" quantity="1" length="45" incomplete="0" nowinstats="0" location="Casa Karol">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Eh só isso
+Não tem mais jeito
+Acabou
+Boa sorte</comments>
+									<players>
+									<player username="" userid="0" name="Karol" startposition="" color="" score="11" new="0" rating="0" win="1" />
+						<player username="Viluna" userid="4601796" name="Nathália Amaral" startposition="" color="" score="8" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Had" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120256365" userid="72259" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120256172" userid="12800" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Brian" startposition="" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Ishan" startposition="" color="" score="" new="1" rating="0" win="0" />
+						<player username="stoid27" userid="12800" name="Jon" startposition="" color="" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Matt Stafford" startposition="" color="" score="" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120255296" userid="4573705" date="2026-10-26" quantity="1" length="69" incomplete="0" nowinstats="0" location="La Posada Del Dado">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Aarón" startposition="" color="" score="10" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Héctor" startposition="" color="" score="4" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Isaac" startposition="" color="" score="5" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="José" startposition="" color="" score="6" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120255226" userid="4601796" date="2026-10-26" quantity="1" length="82" incomplete="0" nowinstats="0" location="Casa Karol">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Jogamos como nunca perdemos como sempre</comments>
+									<players>
+									<player username="" userid="0" name="Karol" startposition="" color="" score="14" new="0" rating="0" win="1" />
+						<player username="Viluna" userid="4601796" name="Nathália Amaral" startposition="" color="" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Had" startposition="" color="" score="9" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120254621" userid="854943" date="2026-10-26" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120253937" userid="4176622" date="2026-10-26" quantity="1" length="61" incomplete="0" nowinstats="0" location="Casita ❤️">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Baltazar" startposition="" color="Azul" score="6" new="0" rating="0" win="0" />
+						<player username="Kielh" userid="4176622" name="Kiel" startposition="" color="Blanco" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Nina ❤️" startposition="" color="Rojo" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120253832" userid="4348494" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120251469" userid="1405618" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="Online BoardGameArena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>TURN BASED</comments>
+									<players>
+									<player username="Psychobob99" userid="1405618" name="Bob Bentley" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jen Etherington" startposition="" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Angus Drakeford" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120249631" userid="2916751" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120247755" userid="3702743" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="Da Simona">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Anna Lardschneider" startposition="" color="" score="7" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Lena" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="Naed27" userid="3702743" name="Nadia" startposition="" color="" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Simona" startposition="" color="" score="8" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120246084" userid="3510939" date="2026-10-26" quantity="1" length="37" incomplete="0" nowinstats="0" location="Z.">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#Playstation
+
+Played with expansions:
+- [thing=926]CATAN: Cities &amp;amp; Knights[/thing] ([geekurl=/play/120246085]play[/geekurl])</comments>
+									<players>
+									<player username="" userid="0" name="P." startposition="4" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="P." startposition="1" color="" score="4" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="S." startposition="3" color="" score="6" new="0" rating="0" win="0" />
+						<player username="yuloxxian" userid="3510939" name="Thorsten" startposition="2" color="" score="13" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120244650" userid="3510939" date="2026-10-26" quantity="1" length="43" incomplete="0" nowinstats="0" location="Z.">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#Playstation
+
+Played with expansions:
+- [thing=367791]CATAN: The Helpers[/thing] ([geekurl=/play/120244652]play[/geekurl])</comments>
+									<players>
+									<player username="" userid="0" name="P." startposition="1" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="P." startposition="2" color="" score="4" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="S." startposition="4" color="" score="10" new="0" rating="0" win="1" />
+						<player username="yuloxxian" userid="3510939" name="Thorsten" startposition="3" color="" score="9" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120244189" userid="4169914" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120244115" userid="4782104" date="2026-10-26" quantity="30" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120243658" userid="2512359" date="2026-10-26" quantity="1" length="44" incomplete="0" nowinstats="0" location="home">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#bgstats
+
+Played with expansions:
+- [thing=926]De Kolonisten van Catan: Steden &amp;amp; Ridders[/thing]</comments>
+									<players>
+									<player username="" userid="0" name="Cindy" startposition="" color="" score="13" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Kobe" startposition="" color="" score="11" new="0" rating="0" win="0" />
+						<player username="T72on1" userid="2512359" name="Peter" startposition="start player" color="" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120232718" userid="4412937" date="2026-10-26" quantity="1" length="180" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Partida muy larga con expansión</comments>
+									<players>
+									<player username="" userid="0" name="Jorge" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Romero" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="danielooo" userid="4412937" name="Dani Belmonte" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="JeMappelleBarbara" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Hugo" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Esther" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120225072" userid="895616" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120223305" userid="15652" date="2026-10-26" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="121008984" userid="187" date="2026-10-25" quantity="1" length="90" incomplete="0" nowinstats="0" location="Board Game Arena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Scott started a four-player game with Aaron, WittyMoniker and myself.</comments>
+									<players>
+									<player username="" userid="0" name="Scott Weber" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Aaron Lynch" startposition="" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Scott Nicely" startposition="" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="WittyMoniker" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120897347" userid="4799270" date="2026-10-25" quantity="3" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120798836" userid="4797492" date="2026-10-25" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120610493" userid="4470120" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Triii Dpto 333">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="Gasflix" userid="4470120" name="Andres" startposition="" color="Azul" score="12" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Eli" startposition="" color="Amarillo" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jose E" startposition="" color="Rojo" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tamara" startposition="" color="Blanco" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120456528" userid="4776615" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120452349" userid="355474" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120410521" userid="43" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Digital-BoardGameArena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Puesta del sol" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="chlpaty zvar" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="MarkEJohnson" userid="43" name="Mark Johnson" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120233195" userid="2135883" date="2026-10-25" quantity="1" length="128" incomplete="0" nowinstats="0" location="CG">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#bgstats</comments>
+									<players>
+									<player username="Edlomax" userid="2135883" name="Ed" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="lilisanta" userid="2192757" name="Lili" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Vivian" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Vivinha" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120230270" userid="4214998" date="2026-10-25" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120228514" userid="3164149" date="2026-10-25" quantity="1" length="60" incomplete="0" nowinstats="0" location="Home RO">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>One 3-player game
+1° GR (10) - 2° FR (8) - 2° GV (8)</comments>
+								</play>
+	<play id="120224886" userid="4676712" date="2026-10-25" quantity="2" length="90" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Played up to 10VP. Each of us won once. Played with Catan ZIP</comments>
+									<players>
+									<player username="lascholz" userid="4676712" name="leandro scholz" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Bia" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120224706" userid="4184989" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tiel">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Gewonnen door Dirk</comments>
+									<players>
+									<player username="" userid="0" name="Cilia" startposition="3" color="Wit" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Michel" startposition="1" color="Bruin" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Mare" startposition="2" color="Blauw" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Dirk" startposition="4" color="Oranje" score="12" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120223400" userid="4542511" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog
+Expansión usada: Catan: Seafarers</comments>
+									<players>
+									<player username="" userid="0" name="Alex G" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Lezly" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="arely" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="arnold" startposition="" color="" score="null" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120219125" userid="4094060" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Bunker">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Pao" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Anonymous player" startposition="" color="" score="null" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120219055" userid="1309972" date="2026-10-25" quantity="1" length="120" incomplete="0" nowinstats="0" location="Monica's House">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Monica" startposition="" color="Red" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Mel" startposition="" color="White" score="5" new="0" rating="0" win="0" />
+						<player username="MonkeySenior" userid="1309972" name="Jonathan Vidal" startposition="" color="Orange" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Nichelle" startposition="" color="Blue" score="5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120218311" userid="4781210" date="2026-10-25" quantity="1" length="60" incomplete="0" nowinstats="0" location="Home">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Me" startposition="" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Natasha" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120217912" userid="4074256" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120217432" userid="4695541" date="2026-10-25" quantity="1" length="109" incomplete="0" nowinstats="0" location="Mi casa">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Jenny Quezada" startposition="" color="Azul" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Pati Espinosa" startposition="" color="Rojo" score="14" new="0" rating="0" win="1" />
+						<player username="CamaradaPato" userid="4695541" name="Patricio Flores" startposition="" color="Blanco" score="8" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120217297" userid="3895594" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120217184" userid="4761573" date="2026-10-25" quantity="1" length="121" incomplete="0" nowinstats="0" location="Casa">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog
+Expansión usada: Catan: Cities &amp; Knights</comments>
+									<players>
+									<player username="" userid="0" name="Genaro" startposition="" color="Azul" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julio" startposition="" color="Verde" score="13" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Rubi" startposition="" color="Morado" score="9" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120216828" userid="4176622" date="2026-10-25" quantity="1" length="44" incomplete="0" nowinstats="0" location="Casita ❤️">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Baltazar" startposition="" color="Azul" score="4" new="0" rating="0" win="0" />
+						<player username="Kielh" userid="4176622" name="Kiel" startposition="" color="Blanco" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Nina ❤️" startposition="" color="Rojo" score="6" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120216262" userid="4456291" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120215965" userid="3322314" date="2026-10-25" quantity="3" length="90" incomplete="0" nowinstats="0" location="Ms. Amy's House">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Ms amy dub, my dub 2x</comments>
+									<players>
+									<player username="chavajr5123" userid="3322314" name="Salvador M" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Ms. Amy" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Juan P" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Lis" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120215304" userid="4486286" date="2026-10-25" quantity="1" length="95" incomplete="0" nowinstats="0" location="Online">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Played with expansions:
+- [thing=926]CATAN: Cities &amp; Knights[/thing]
+- [thing=325]Catan: Seafarers[/thing]</comments>
+									<players>
+									<player username="Khala" userid="4486286" name="Serena" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jabba" startposition="" color="" score="11" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Bunn" startposition="" color="" score="8" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Wiegs" startposition="" color="" score="16" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120214402" userid="3772280" date="2026-10-25" quantity="1" length="90" incomplete="0" nowinstats="0" location="Home (Torino)">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="Nezinezi" userid="4395516" name="Nezihe A" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="Megaknon" userid="3772280" name="Mert" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Esra" startposition="" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Cem" startposition="" color="" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120213723" userid="3465422" date="2026-10-25" quantity="1" length="65" incomplete="0" nowinstats="0" location="Moms House">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="Cinder346" userid="3465422" name="Juan Cinder" startposition="" color="" score="6" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Mari Torres" startposition="" color="" score="4" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Rocio" startposition="" color="" score="10" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Susana" startposition="" color="" score="4" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120212005" userid="4486286" date="2026-10-25" quantity="1" length="85" incomplete="0" nowinstats="0" location="Online">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Played with expansions:
+- [thing=926]CATAN: Cities &amp; Knights[/thing]
+- [thing=325]Catan: Seafarers[/thing]</comments>
+									<players>
+									<player username="" userid="0" name="Wiegs" startposition="" color="" score="4" new="0" rating="0" win="0" />
+						<player username="Khala" userid="4486286" name="Serena" startposition="" color="" score="16" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jabba" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Bunn" startposition="" color="" score="11" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120211315" userid="1868489" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="PabloAB" userid="1868489" name="Pablo Aguilar" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120210767" userid="4246115" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Board Game Arena">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Martin" startposition="" color="" score="15" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Eyora" startposition="" color="" score="12" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Kim" startposition="" color="" score="12" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120210541" userid="190159" date="2026-10-25" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120210466" userid="3402641" date="2026-10-25" quantity="1" length="41" incomplete="0" nowinstats="0" location="Home">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>2 handed solo, each hand has a dummy player which just rolls dice and shares resources </comments>
+									<players>
+									<player username="" userid="0" name="!Nik" startposition="" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120209312" userid="4501912" date="2026-10-25" quantity="2" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120208976" userid="4780924" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120208082" userid="1533954" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Play! JM">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Cesar Lévano" startposition="" color="" score="7" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Jugador anónimo" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jugador anónimo" startposition="" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Nrym" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120207912" userid="4486286" date="2026-10-25" quantity="1" length="80" incomplete="0" nowinstats="0" location="Online">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Played with expansions:
+- [thing=926]CATAN: Cities &amp; Knights[/thing]
+- [thing=325]Catan: Seafarers[/thing]</comments>
+									<players>
+									<player username="" userid="0" name="Bunn" startposition="" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Wiegs" startposition="" color="" score="4" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jabba" startposition="" color="" score="8" new="0" rating="0" win="0" />
+						<player username="Khala" userid="4486286" name="Serena" startposition="" color="" score="16" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120206934" userid="3510939" date="2026-10-25" quantity="1" length="43" incomplete="0" nowinstats="0" location="Z.">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#Playstation
+
+Played with expansions:
+- [thing=926]CATAN: Cities &amp;amp; Knights[/thing] ([geekurl=/play/120206935]play[/geekurl])</comments>
+									<players>
+									<player username="" userid="0" name="P." startposition="4" color="" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="P." startposition="1" color="" score="2" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="S." startposition="2" color="" score="13" new="0" rating="0" win="1" />
+						<player username="yuloxxian" userid="3510939" name="Thorsten" startposition="3" color="" score="10" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120206171" userid="178311" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Home">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Played with expansions:
+- [thing=926]The Cities and Knights of Catan[/thing] ([geekurl=/play/120206173]play[/geekurl])</comments>
+									<players>
+									<player username="martinmcu" userid="178311" name="Matt Martin" startposition="start player" color="" score="13" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="David Martin" startposition="" color="" score="8" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Daniel Martin" startposition="" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Laura Martin" startposition="" color="" score="9" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120204261" userid="3510939" date="2026-10-25" quantity="1" length="41" incomplete="0" nowinstats="0" location="Z.">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#Playstation
+
+Played with expansions:
+- [thing=367791]CATAN: The Helpers[/thing] ([geekurl=/play/120204262]play[/geekurl])</comments>
+									<players>
+									<player username="" userid="0" name="P." startposition="4" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="P." startposition="1" color="" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="S." startposition="2" color="" score="6" new="0" rating="0" win="0" />
+						<player username="yuloxxian" userid="3510939" name="Thorsten" startposition="3" color="" score="10" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120204201" userid="582985" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+								</play>
+	<play id="120203885" userid="1533954" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Play! JM">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Jugador anónimo" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jugador anónimo" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jugador anónimo" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Nrym" startposition="" color="" score="8" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120201389" userid="3446375" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Parker = Winner</comments>
+								</play>
+	<play id="120200468" userid="1494523" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Home">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Clara Singer" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Heather Hunter" startposition="" color="" score="5" new="1" rating="0" win="0" />
+						<player username="mineral2" userid="1494523" name="Matt Singer" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120200134" userid="2836107" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Simancas">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>#BGCatalog</comments>
+									<players>
+									<player username="" userid="0" name="Mamá" startposition="" color="Blanco" score="10" new="0" rating="0" win="1" />
+						<player username="fran__cardona" userid="2836107" name="Papá" startposition="" color="Azul" score="4" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Álvaro" startposition="" color="Rojo" score="4" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120199299" userid="3446375" date="2026-10-25" quantity="1" length="60" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+						<comments>Winner = Parker</comments>
+								</play>
+	<play id="120198833" userid="3322616" date="2026-10-25" quantity="1" length="41" incomplete="0" nowinstats="0" location="Zu Hause">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jendik" startposition="" color="" score="7" new="0" rating="0" win="0" />
+						<player username="Anborn91" userid="3322616" name="Renko" startposition="" color="" score="10" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="120198106" userid="4689848" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Merve tan bayar" startposition="" color="Kırmızı" score="10" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="120198080" userid="4689848" date="2026-10-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Catan" objecttype="thing" objectid="13">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Merve tan bayar" startposition="" color="Mavi " score="10" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	</plays>

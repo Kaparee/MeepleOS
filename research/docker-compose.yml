@@ -1,0 +1,39 @@
+services:
+  isi-db2:
+    image: postgres:18-trixie
+    container_name: isi_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: isi_db
+      POSTGRES_USER: isi_user
+      POSTGRES_PASSWORD: super_tajne_haslo
+    ports:
+      - "8833:5432"
+    volumes:
+      - isi_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U isi_user -d isi_db"]
+      interval: 3s
+      timeout: 3s
+      retries: 5
+
+  isi-api:
+    build: .
+    container_name: isi_api
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://isi_user:super_tajne_haslo@isi-db2:5432/isi_db
+      - SECRET_KEY=FBZN0b1KhxUcdNiTW3TWXE4cJc8XRdE3a9c8Up4PKn3Ywsjwcurcb65ehLnSBUri
+      - ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=60
+      - PROJECT_NAME=ISI Recommender API
+    volumes:
+      - ./app:/app/app
+    depends_on:
+      isi-db2:
+        condition: service_healthy
+
+volumes:
+  isi_pgdata:

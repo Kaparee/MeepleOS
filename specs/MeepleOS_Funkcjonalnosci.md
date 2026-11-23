@@ -2,7 +2,7 @@
 
 **Autor:** Jakub Płocica  
 **Temat pracy:** Projekt i implementacja wieloplatformowego systemu rezerwacji, wypożyczeń i obsługi klienta z funkcjami społecznościowymi dla lokali ze strefami gier planszowych i rozrywki  
-**Łączna liczba funkcjonalności:** 107  
+**Łączna liczba funkcjonalności:** 109  
 
 ---
 
@@ -11,9 +11,9 @@
 | Priorytet MoSCoW | Liczba funkcji |
 |---|:---:|
 | **Must Have** | 61 |
-| **Should Have** | 35 |
+| **Should Have** | 37 |
 | **Could Have** | 11 |
-| **RAZEM** | **107** |
+| **RAZEM** | **109** |
 
 ---
 
@@ -487,12 +487,12 @@
 
 <hr style="height: 3px; background-color: #555555; border: none; margin: 40px 0;">
 
-| ID & Nazwa | [AI-05] Wyjaśnienie dlaczego gra została polecona (XAI) |
+| ID & Nazwa | [AI-05] Wyjaśnialność rekomendacji AI (Explainable AI - XAI / SHAP) |
 |---|---|
-| **Kto i gdzie** | Użytkownicy przy stoliku w aplikacji mobilnej |
-| **Co robi** | Przy każdej zaproponowanej grze wyświetla się dymek z prostym wyjaśnieniem: "Polecamy Catan, bo 3 osoby lubią mechanikę handlu, a gra leży wolna na Regale B-1". |
-| **Kluczowe mechanizmy** | Moduł Explainable AI (XAI) generujący czytelny tekst z cech dopasowania profilu i lokalizacji z bazy. |
-| **Wstępny MoSCoW** | **Should Have** - fajny smaczek, promotorzy to lubią |
+| **Kto i gdzie** | Użytkownicy przy stoliku oraz obsługa lokalu w aplikacji |
+| **Co robi** | Rekomendacja nie jest czarną skrzynką. Przy każdej zaproponowanej grze użytkownik może rozwinąć interaktywny wykres kaskadowy (Waterfall Plot) oparty na wartościach SHAP (Shapley Additive exPlanations), który dokładnie pokazuje, jaki wpływ na wybór miały poszczególne cechy (np. +40% za zgodność mechaniki Worker Placement, +25% za optymalny czas partii, -10% za wysoką losowość). |
+| **Kluczowe mechanizmy** | Moduł XAI (biblioteka SHAP w mikroserwisie Python), obliczanie addytywnych wkładów cech do estymacji i generowanie wektora wag do wizualizacji na wykresie. |
+| **Wstępny MoSCoW** | **Should Have** - kluczowy element badawczy eliminujący zjawisko „czarnej skrzynki” w AI |
 
 <hr style="height: 3px; background-color: #555555; border: none; margin: 40px 0;">
 
@@ -529,6 +529,15 @@
 | **Co robi** | Model ANFIS dynamicznie koryguje szacowany czas gry o współczynnik "Analysis Paralysis Index" wyliczany na podstawie historii czasu ruchów poszczególnych graczy obecnych przy stole. |
 | **Kluczowe mechanizmy** | Wektor cech graczy przekazywany do inferencji modelu neuro-rozmytego w FastAPI. |
 | **Wstępny MoSCoW** | **Could Have** – Estymator paraliżu myślenia na bazie składu graczy; bazowy model ANFIS zrealizowany jest w AI-06. |
+
+<hr style="height: 3px; background-color: #555555; border: none; margin: 40px 0;">
+
+| ID & Nazwa | [AI-10] Predykcja subiektywnej oceny gracza (Uczenie Maszynowe - Regresja) |
+|---|---|
+| **Kto i gdzie** | Użytkownik w aplikacji mobilnej w widoku szczegółów gry |
+| **Co robi** | System szacuje przewidywaną ocenę w skali 1.0–10.0 („Prognozujemy, że ocenisz tę grę na 8.4/10”), jaką dany gracz wystawiłby nowemu, jeszcze niegranemu przez siebie tytułowi. Pozwala to na trafny dobór gier w ciemno. |
+| **Kluczowe mechanizmy** | Model regresyjny (Random Forest Regressor / Ridge Regression w scikit-learn) trenowany na profilach wektorowych graczy i macierzy dotychczasowych ocen `user_ratings`. |
+| **Wstępny MoSCoW** | **Should Have** - zaawansowany algorytm predykcyjny podnoszący wartość badawczą modułu AI |
 
 <hr style="height: 3px; background-color: #555555; border: none; margin: 40px 0;">
 
@@ -648,6 +657,15 @@
 | **Co robi** | Przycisk „Udostępnij relację”: aplikacja generuje estetyczną pionową grafikę (format 9:16) z okładką gry, miejscem na opcjonalne selfie z partii, podsumowaniem punktów i logiem lokalu, gotową do wrzucenia na Instagram Stories / Facebooka. |
 | **Kluczowe mechanizmy** | Renderowanie Canvas w React Native, natywny moduł udostępniania systemowego (Share Sheet). |
 | **Wstępny MoSCoW** | **Could Have** – Generator grafiki na social media jest opcjonalnym dodatkiem marketingowym. |
+
+<hr style="height: 3px; background-color: #555555; border: none; margin: 40px 0;">
+
+| ID & Nazwa | [PASS-14] Analiza prywatnej kolekcji BGG – Półka Wstydu i zmęczenie materiału |
+|---|---|
+| **Kto i gdzie** | Gracz w aplikacji mobilnej w profilu paszportu |
+| **Co robi** | Gracz może zsynchronizować konto ze swoim profilem na BoardGameGeek. System analizuje jego domową kolekcję i oznacza gry posiadane, w które rozegrano 0 partii lub niebyły grane od >6 miesięcy („Półka Wstydu” / *Shelf of Shame*). Wykrywa także spadek częstotliwości grania w dawne ulubione tytuły (*Game Fatigue*) i sugeruje odświeżające alternatywy o pokrewnych mechanikach. |
+| **Kluczowe mechanizmy** | Asynchroniczna integracja z BGG XML API2 (`/collection`), analiza dat ostatnich partii w relacji do średnich ocen i mechanik BGG. |
+| **Wstępny MoSCoW** | **Should Have** - świetny psychologiczno-grywalizacyjny aspekt angażujący hobbystów planszówek |
 
 <hr style="height: 3px; background-color: #555555; border: none; margin: 40px 0;">
 

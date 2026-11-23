@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version='1.0' encoding='utf-8'?>
 <sim-project version="15.21" multi-file="no" uid="simp16d544b601ed456c9cb3e39d557ab022" creation-date="11/02/2026 21:39:54">
   <meta>
     <name>MeepleOS</name>
@@ -699,74 +699,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>uruchamia </t>
-                      </p>
-                      <p s="S1">
-                        <t>inteligentnego </t>
-                      </p>
-                      <p s="S1">
-                        <t>doradcę </t>
-                      </p>
-                      <p s="S1">
-                        <t>rekomendacji </t>
-                      </p>
-                      <p s="S1">
-                        <t>gier, </t>
-                      </p>
-                      <p s="S1">
-                        <t>który </t>
-                      </p>
-                      <p s="S1">
-                        <t>analizuje </t>
-                      </p>
-                      <p s="S1">
-                        <t>profile </t>
-                      </p>
-                      <p s="S1">
-                        <t>graczy </t>
-                      </p>
-                      <p s="S1">
-                        <t>obecnych </t>
-                      </p>
-                      <p s="S1">
-                        <t>przy </t>
-                      </p>
-                      <p s="S1">
-                        <t>stole </t>
-                      </p>
-                      <p s="S1">
-                        <t>i </t>
-                      </p>
-                      <p s="S1">
-                        <t>wybiera </t>
-                      </p>
-                      <p s="S1">
-                        <t>optymalny </t>
-                      </p>
-                      <p s="S1">
-                        <t>tytuł </t>
-                      </p>
-                      <p s="S1">
-                        <t>spośród </t>
-                      </p>
-                      <p s="S1">
-                        <t>dostępnych </t>
-                      </p>
-                      <p s="S1">
-                        <t>fizycznie </t>
-                      </p>
-                      <p s="S1">
-                        <t>na </t>
-                      </p>
-                      <p s="S1">
-                        <t>półce
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>uruchamia </t></p><p s="S1"><t>inteligentnego </t></p><p s="S1"><t>doradcę </t></p><p s="S1"><t>rekomendacji </t></p><p s="S1"><t>gier </t></p><p s="S1"><t>analizującego </t></p><p s="S1"><t>profile </t></p><p s="S1"><t>graczy </t></p><p s="S1"><t>przy </t></p><p s="S1"><t>stole </t></p><p s="S1"><t>i </t></p><p s="S1"><t>filtrującego </t></p><p s="S1"><t>gry </t></p><p s="S1"><t>wolne </t></p><p s="S1"><t>na </t></p><p s="S1"><t>półce, </t></p><p s="S1"><t>z </t></p><p s="S1"><t>modułem </t></p><p s="S1"><t>Explainable </t></p><p s="S1"><t>AI </t></p><p s="S1"><t>(wykres </t></p><p s="S1"><t>kaskadowy </t></p><p s="S1"><t>SHAP) </t></p><p s="S1"><t>wyjaśniającym </t></p><p s="S1"><t>powody </t></p><p s="S1"><t>wyboru.
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -3275,44 +3209,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>umożliwia </t>
-                      </p>
-                      <p s="S1">
-                        <t>Managerowi </t>
-                      </p>
-                      <p s="S1">
-                        <t>dodawanie, </t>
-                      </p>
-                      <p s="S1">
-                        <t>edycję </t>
-                      </p>
-                      <p s="S1">
-                        <t>cen </t>
-                      </p>
-                      <p s="S1">
-                        <t>oraz </t>
-                      </p>
-                      <p s="S1">
-                        <t>wycofywanie </t>
-                      </p>
-                      <p s="S1">
-                        <t>pozycji </t>
-                      </p>
-                      <p s="S1">
-                        <t>z </t>
-                      </p>
-                      <p s="S1">
-                        <t>karty </t>
-                      </p>
-                      <p s="S1">
-                        <t>menu.
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>umożliwia </t></p><p s="S1"><t>Managerowi </t></p><p s="S1"><t>dodawanie, </t></p><p s="S1"><t>edycję </t></p><p s="S1"><t>cen, </t></p><p s="S1"><t>wycofywanie </t></p><p s="S1"><t>pozycji </t></p><p s="S1"><t>z </t></p><p s="S1"><t>menu </t></p><p s="S1"><t>oraz </t></p><p s="S1"><t>ewidencję </t></p><p s="S1"><t>stanów </t></p><p s="S1"><t>magazynowych </t></p><p s="S1"><t>piwa </t></p><p s="S1"><t>i </t></p><p s="S1"><t>dań </t></p><p s="S1"><t>(osiągnięcie </t></p><p s="S1"><t>stanu </t></p><p s="S1"><t>0 </t></p><p s="S1"><t>automatycznie </t></p><p s="S1"><t>blokuje </t></p><p s="S1"><t>sprzedaż </t></p><p s="S1"><t>w </t></p><p s="S1"><t>WF-22).
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -4772,74 +4670,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>umożliwia </t>
-                      </p>
-                      <p s="S1">
-                        <t>klientom </t>
-                      </p>
-                      <p s="S1">
-                        <t>wystawienie </t>
-                      </p>
-                      <p s="S1">
-                        <t>oceny </t>
-                      </p>
-                      <p s="S1">
-                        <t>gry </t>
-                      </p>
-                      <p s="S1">
-                        <t>w </t>
-                      </p>
-                      <p s="S1">
-                        <t>skali </t>
-                      </p>
-                      <p s="S1">
-                        <t>1.0–10.0 </t>
-                      </p>
-                      <p s="S1">
-                        <t>po </t>
-                      </p>
-                      <p s="S1">
-                        <t>partii </t>
-                      </p>
-                      <p s="S1">
-                        <t>lub </t>
-                      </p>
-                      <p s="S1">
-                        <t>w </t>
-                      </p>
-                      <p s="S1">
-                        <t>katalogu, </t>
-                      </p>
-                      <p s="S1">
-                        <t>co </t>
-                      </p>
-                      <p s="S1">
-                        <t>buduje </t>
-                      </p>
-                      <p s="S1">
-                        <t>lokalny </t>
-                      </p>
-                      <p s="S1">
-                        <t>ranking </t>
-                      </p>
-                      <p s="S1">
-                        <t>i </t>
-                      </p>
-                      <p s="S1">
-                        <t>zasila </t>
-                      </p>
-                      <p s="S1">
-                        <t>rekomendacje </t>
-                      </p>
-                      <p s="S1">
-                        <t>AI.
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>umożliwia </t></p><p s="S1"><t>Klientowi </t></p><p s="S1"><t>ocenę </t></p><p s="S1"><t>gry </t></p><p s="S1"><t>w </t></p><p s="S1"><t>skali </t></p><p s="S1"><t>1–10 </t></p><p s="S1"><t>po </t></p><p s="S1"><t>zakończonej </t></p><p s="S1"><t>partii </t></p><p s="S1"><t>oraz </t></p><p s="S1"><t>za </t></p><p s="S1"><t>pomocą </t></p><p s="S1"><t>modelu </t></p><p s="S1"><t>regresyjnego </t></p><p s="S1"><t>(Random </t></p><p s="S1"><t>Forest </t></p><p s="S1"><t>/ </t></p><p s="S1"><t>Ridge) </t></p><p s="S1"><t>estymuje </t></p><p s="S1"><t>subiektywną </t></p><p s="S1"><t>notę, </t></p><p s="S1"><t>jaką </t></p><p s="S1"><t>gracz </t></p><p s="S1"><t>wystawiłby </t></p><p s="S1"><t>nowej, </t></p><p s="S1"><t>nieznanej </t></p><p s="S1"><t>mu </t></p><p s="S1"><t>grze </t></p><p s="S1"><t>na </t></p><p s="S1"><t>bazie </t></p><p s="S1"><t>wektora </t></p><p s="S1"><t>gustu.
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -5136,7 +4968,7 @@
               <row-height>0</row-height>
             </requirement>
           </item>
-          <item id="c73829e3c170454893744d445267ea3f" cid="REQ082" type="requirement" name="Estymator czasu gry i paraliżu (ANFIS?)" creator="" creation-date="11/16/2026 08:52:02">
+          <item id="c73829e3c170454893744d445267ea3f" cid="REQ082" type="requirement" name="Estymator czasu gry i paraliżu (ANFIS)" creator="" creation-date="11/16/2026 08:52:02">
             <requirement id="1.1.5.7.">
               <description>
                 <text>
@@ -5172,77 +5004,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>oblicza </t>
-                      </p>
-                      <p s="S1">
-                        <t>przewidywany </t>
-                      </p>
-                      <p s="S1">
-                        <t>realny </t>
-                      </p>
-                      <p s="S1">
-                        <t>czas </t>
-                      </p>
-                      <p s="S1">
-                        <t>partii </t>
-                      </p>
-                      <p s="S1">
-                        <t>na </t>
-                      </p>
-                      <p s="S1">
-                        <t>podstawie </t>
-                      </p>
-                      <p s="S1">
-                        <t>modelu </t>
-                      </p>
-                      <p s="S1">
-                        <t>neuro-rozmytego, </t>
-                      </p>
-                      <p s="S1">
-                        <t>uwzględniając </t>
-                      </p>
-                      <p s="S1">
-                        <t>skłonność </t>
-                      </p>
-                      <p s="S1">
-                        <t>graczy </t>
-                      </p>
-                      <p s="S1">
-                        <t>do </t>
-                      </p>
-                      <p s="S1">
-                        <t>paraliżu </t>
-                      </p>
-                      <p s="S1">
-                        <t>myślenia </t>
-                      </p>
-                      <p s="S1">
-                        <t>i </t>
-                      </p>
-                      <p s="S1">
-                        <t>informując </t>
-                      </p>
-                      <p s="S1">
-                        <t>barmana </t>
-                      </p>
-                      <p s="S1">
-                        <t>o </t>
-                      </p>
-                      <p s="S1">
-                        <t>przeciągających </t>
-                      </p>
-                      <p s="S1">
-                        <t>się </t>
-                      </p>
-                      <p s="S1">
-                        <t>sesjach.
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>implementuje </t></p><p s="S1"><t>adaptacyjny </t></p><p s="S1"><t>model </t></p><p s="S1"><t>neuro-rozmyty </t></p><p s="S1"><t>ANFIS </t></p><p s="S1"><t>(Takagi-Sugeno) </t></p><p s="S1"><t>zasilany </t></p><p s="S1"><t>danymi </t></p><p s="S1"><t>empirycznymi </t></p><p s="S1"><t>z </t></p><p s="S1"><t>API </t></p><p s="S1"><t>BoardGameGeek </t></p><p s="S1"><t>(ekstrakcja </t></p><p s="S1"><t>faktycznych </t></p><p s="S1"><t>czasów </t></p><p s="S1"><t>rozgrywek </t></p><p s="S1"><t>z </t></p><p s="S1"><t>logów </t></p><p s="S1"><t>partii </t></p><p s="S1"><t>użytkowników </t></p><p s="S1"><t>BGG). </t></p><p s="S1"><t>Model </t></p><p s="S1"><t>przetwarza </t></p><p s="S1"><t>zmienne </t></p><p s="S1"><t>lingwistyczne, </t></p><p s="S1"><t>estymując </t></p><p s="S1"><t>realny </t></p><p s="S1"><t>czas </t></p><p s="S1"><t>trwania </t></p><p s="S1"><t>sesji </t></p><p s="S1"><t>i </t></p><p s="S1"><t>dynamicznie </t></p><p s="S1"><t>ostrzegając </t></p><p s="S1"><t>obsługę </t></p><p s="S1"><t>baru </t></p><p s="S1"><t>na </t></p><p s="S1"><t>mapie </t></p><p s="S1"><t>sali </t></p><p s="S1"><t>o </t></p><p s="S1"><t>ryzyku </t></p><p s="S1"><t>kolizji </t></p><p s="S1"><t>z </t></p><p s="S1"><t>nadchodzącymi </t></p><p s="S1"><t>rezerwacjami </t></p><p s="S1"><t>stolika.
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -5408,41 +5171,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>wizualizuje </t>
-                      </p>
-                      <p s="S1">
-                        <t>postęp </t>
-                      </p>
-                      <p s="S1">
-                        <t>Klienta </t>
-                      </p>
-                      <p s="S1">
-                        <t>oraz </t>
-                      </p>
-                      <p s="S1">
-                        <t>odkrywa </t>
-                      </p>
-                      <p s="S1">
-                        <t>segmenty </t>
-                      </p>
-                      <p s="S1">
-                        <t>na </t>
-                      </p>
-                      <p s="S1">
-                        <t>Kole </t>
-                      </p>
-                      <p s="S1">
-                        <t>Mechanik </t>
-                      </p>
-                      <p s="S1">
-                        <t>BGG
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>umożliwia </t></p><p s="S1"><t>wizualizację </t></p><p s="S1"><t>postępu </t></p><p s="S1"><t>Klienta </t></p><p s="S1"><t>na </t></p><p s="S1"><t>Kole </t></p><p s="S1"><t>Mechanik </t></p><p s="S1"><t>BGG </t></p><p s="S1"><t>oraz </t></p><p s="S1"><t>implementuje </t></p><p s="S1"><t>moduł </t></p><p s="S1"><t>analityki </t></p><p s="S1"><t>behawioralnej </t></p><p s="S1"><t>prywatnej </t></p><p s="S1"><t>kolekcji </t></p><p s="S1"><t>BGG: </t></p><p s="S1"><t>oblicza </t></p><p s="S1"><t>wskaźnik </t></p><p s="S1"><t>Półki </t></p><p s="S1"><t>Wstydu </t></p><p s="S1"><t>(stosunek </t></p><p s="S1"><t>gier </t></p><p s="S1"><t>nieogranych </t></p><p s="S1"><t>i </t></p><p s="S1"><t>leżących </t></p><p s="S1"><t>&gt;6 </t></p><p s="S1"><t>miesięcy), </t></p><p s="S1"><t>wykrywa </t></p><p s="S1"><t>krzywą </t></p><p s="S1"><t>zmęczenia </t></p><p s="S1"><t>materiału </t></p><p s="S1"><t>(Game </t></p><p s="S1"><t>Fatigue </t></p><p s="S1"><t>Curve) </t></p><p s="S1"><t>w </t></p><p s="S1"><t>faworytach </t></p><p s="S1"><t>oraz </t></p><p s="S1"><t>typuje </t></p><p s="S1"><t>nieogrywane </t></p><p s="S1"><t>gry </t></p><p s="S1"><t>domowe </t></p><p s="S1"><t>dostępne </t></p><p s="S1"><t>na </t></p><p s="S1"><t>regale </t></p><p s="S1"><t>lokalu </t></p><p s="S1"><t>w </t></p><p s="S1"><t>celu </t></p><p s="S1"><t>przełamywania </t></p><p s="S1"><t>barier </t></p><p s="S1"><t>wejścia.
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -6242,59 +5972,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>umożliwia </t>
-                      </p>
-                      <p s="S1">
-                        <t>logowanie </t>
-                      </p>
-                      <p s="S1">
-                        <t>na </t>
-                      </p>
-                      <p s="S1">
-                        <t>konto </t>
-                      </p>
-                      <p s="S1">
-                        <t>przy </t>
-                      </p>
-                      <p s="S1">
-                        <t>użyciu </t>
-                      </p>
-                      <p s="S1">
-                        <t>tokenów </t>
-                      </p>
-                      <p s="S1">
-                        <t>JWT, </t>
-                      </p>
-                      <p s="S1">
-                        <t>z </t>
-                      </p>
-                      <p s="S1">
-                        <t>automatycznym </t>
-                      </p>
-                      <p s="S1">
-                        <t>odświeżaniem </t>
-                      </p>
-                      <p s="S1">
-                        <t>sesji </t>
-                      </p>
-                      <p s="S1">
-                        <t>w </t>
-                      </p>
-                      <p s="S1">
-                        <t>tle </t>
-                      </p>
-                      <p s="S1">
-                        <t>(Refresh </t>
-                      </p>
-                      <p s="S1">
-                        <t>Token).
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>umożliwia </t></p><p s="S1"><t>logowanie </t></p><p s="S1"><t>na </t></p><p s="S1"><t>konto </t></p><p s="S1"><t>przy </t></p><p s="S1"><t>użyciu </t></p><p s="S1"><t>tokenów </t></p><p s="S1"><t>JWT, </t></p><p s="S1"><t>z </t></p><p s="S1"><t>automatycznym </t></p><p s="S1"><t>odświeżaniem </t></p><p s="S1"><t>sesji </t></p><p s="S1"><t>w </t></p><p s="S1"><t>tle </t></p><p s="S1"><t>(Refresh </t></p><p s="S1"><t>Token) </t></p><p s="S1"><t>oraz </t></p><p s="S1"><t>procedurę </t></p><p s="S1"><t>resetu </t></p><p s="S1"><t>zapomnianego </t></p><p s="S1"><t>hasła </t></p><p s="S1"><t>kodem </t></p><p s="S1"><t>weryfikacyjnym </t></p><p s="S1"><t>wysyłanym </t></p><p s="S1"><t>na </t></p><p s="S1"><t>e-mail.
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -6777,59 +6456,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>umożliwia </t>
-                      </p>
-                      <p s="S1">
-                        <t>klientowi </t>
-                      </p>
-                      <p s="S1">
-                        <t>otwarcie </t>
-                      </p>
-                      <p s="S1">
-                        <t>sesji </t>
-                      </p>
-                      <p s="S1">
-                        <t>stolika </t>
-                      </p>
-                      <p s="S1">
-                        <t>przez </t>
-                      </p>
-                      <p s="S1">
-                        <t>przyłożenie </t>
-                      </p>
-                      <p s="S1">
-                        <t>telefonu </t>
-                      </p>
-                      <p s="S1">
-                        <t>do </t>
-                      </p>
-                      <p s="S1">
-                        <t>naklejki </t>
-                      </p>
-                      <p s="S1">
-                        <t>NFC </t>
-                      </p>
-                      <p s="S1">
-                        <t>lub </t>
-                      </p>
-                      <p s="S1">
-                        <t>zeskanowanie </t>
-                      </p>
-                      <p s="S1">
-                        <t>kodu </t>
-                      </p>
-                      <p s="S1">
-                        <t>QR </t>
-                      </p>
-                      <p s="S1">
-                        <t>mebla.
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>umożliwia </t></p><p s="S1"><t>klientowi </t></p><p s="S1"><t>otwarcie </t></p><p s="S1"><t>sesji </t></p><p s="S1"><t>stolika </t></p><p s="S1"><t>przez </t></p><p s="S1"><t>przyłożenie </t></p><p s="S1"><t>telefonu </t></p><p s="S1"><t>do </t></p><p s="S1"><t>naklejki </t></p><p s="S1"><t>NFC </t></p><p s="S1"><t>lub </t></p><p s="S1"><t>kodu </t></p><p s="S1"><t>QR </t></p><p s="S1"><t>mebla, </t></p><p s="S1"><t>a </t></p><p s="S1"><t>Managerowi </t></p><p s="S1"><t>udostępnia </t></p><p s="S1"><t>tryb </t></p><p s="S1"><t>parowania </t></p><p s="S1"><t>fizycznego </t></p><p s="S1"><t>identyfikatora </t></p><p s="S1"><t>UID </t></p><p s="S1"><t>nowego </t></p><p s="S1"><t>tagu </t></p><p s="S1"><t>z </t></p><p s="S1"><t>danym </t></p><p s="S1"><t>stolikiem.
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -6947,53 +6575,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>System </t>
-                      </p>
-                      <p s="S1">
-                        <t>umożliwia </t>
-                      </p>
-                      <p s="S1">
-                        <t>edycję </t>
-                      </p>
-                      <p s="S1">
-                        <t>profilu </t>
-                      </p>
-                      <p s="S1">
-                        <t>użytkownika, </t>
-                      </p>
-                      <p s="S1">
-                        <t>tworzenie </t>
-                      </p>
-                      <p s="S1">
-                        <t>listy </t>
-                      </p>
-                      <p s="S1">
-                        <t>zaufanych </t>
-                      </p>
-                      <p s="S1">
-                        <t>znajomych </t>
-                      </p>
-                      <p s="S1">
-                        <t>oraz </t>
-                      </p>
-                      <p s="S1">
-                        <t>sprawdzanie </t>
-                      </p>
-                      <p s="S1">
-                        <t>ich </t>
-                      </p>
-                      <p s="S1">
-                        <t>obecności </t>
-                      </p>
-                      <p s="S1">
-                        <t>w </t>
-                      </p>
-                      <p s="S1">
-                        <t>lokalu.
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>System </t></p><p s="S1"><t>umożliwia </t></p><p s="S1"><t>edycję </t></p><p s="S1"><t>profilu </t></p><p s="S1"><t>użytkownika </t></p><p s="S1"><t>(w </t></p><p s="S1"><t>tym </t></p><p s="S1"><t>bezpieczną </t></p><p s="S1"><t>zmianę </t></p><p s="S1"><t>adresu </t></p><p s="S1"><t>e-mail </t></p><p s="S1"><t>po </t></p><p s="S1"><t>potwierdzeniu </t></p><p s="S1"><t>tożsamości </t></p><p s="S1"><t>hasłem), </t></p><p s="S1"><t>tworzenie </t></p><p s="S1"><t>listy </t></p><p s="S1"><t>zaufanych </t></p><p s="S1"><t>znajomych </t></p><p s="S1"><t>oraz </t></p><p s="S1"><t>sprawdzanie </t></p><p s="S1"><t>ich </t></p><p s="S1"><t>obecności </t></p><p s="S1"><t>w </t></p><p s="S1"><t>lokalu.
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
@@ -7101,68 +6684,8 @@
                           <numbering-level type="None" level="0" format="{0}." />
                         </numbering>
                       </style>
-                      <p s="S1">
-                        <t>wieloplatformowey</t>
-                      </p>
-                      <p s="S1">
-                        <t> </t>
-                      </p>
-                      <p s="S1">
-                        <t>system</t>
-                      </p>
-                      <p s="S1">
-                        <t> </t>
-                      </p>
-                      <p s="S1">
-                        <t>rezerwacji, </t>
-                      </p>
-                      <p s="S1">
-                        <t>wypożyczeń </t>
-                      </p>
-                      <p s="S1">
-                        <t>i </t>
-                      </p>
-                      <p s="S1">
-                        <t>obsługi </t>
-                      </p>
-                      <p s="S1">
-                        <t>klienta </t>
-                      </p>
-                      <p s="S1">
-                        <t>z </t>
-                      </p>
-                      <p s="S1">
-                        <t>funkcjami </t>
-                      </p>
-                      <p s="S1">
-                        <t>społecznościowymi </t>
-                      </p>
-                      <p s="S1">
-                        <t>dla </t>
-                      </p>
-                      <p s="S1">
-                        <t>lokali </t>
-                      </p>
-                      <p s="S1">
-                        <t>ze </t>
-                      </p>
-                      <p s="S1">
-                        <t>strefami </t>
-                      </p>
-                      <p s="S1">
-                        <t>gier </t>
-                      </p>
-                      <p s="S1">
-                        <t>planszowych </t>
-                      </p>
-                      <p s="S1">
-                        <t>i </t>
-                      </p>
-                      <p s="S1">
-                        <t>rozrywki 
-</t>
-                      </p>
-                    </paragraph>
+                      <p s="S1"><t>Wieloplatformowy </t></p><p s="S1"><t>system </t></p><p s="S1"><t>rezerwacji, </t></p><p s="S1"><t>wypożyczeń </t></p><p s="S1"><t>i </t></p><p s="S1"><t>obsługi </t></p><p s="S1"><t>klienta </t></p><p s="S1"><t>z </t></p><p s="S1"><t>funkcjami </t></p><p s="S1"><t>społecznościowymi </t></p><p s="S1"><t>dla </t></p><p s="S1"><t>lokali </t></p><p s="S1"><t>ze </t></p><p s="S1"><t>strefami </t></p><p s="S1"><t>gier </t></p><p s="S1"><t>planszowych </t></p><p s="S1"><t>i </t></p><p s="S1"><t>rozrywki
+</t></p></paragraph>
                   </content>
                 </text>
               </description>
