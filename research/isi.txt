@@ -41,6 +41,7 @@ Table games {
 Table users {
   id uuid [pk]
   nickname varchar(20) [default: null] // CREATE UNIQUE INDEX uq_users_nickname ON users (nickname) WHERE deleted_at IS NULL;
+  bgg_username varchar(100) [null]
   name varchar(50) [default: null]
   surname varchar(50) [default: null]
   email varchar(255) [not null] //CREATE UNIQUE INDEX uq_users_email ON users (email) WHERE deleted_at IS NULL;
@@ -103,11 +104,25 @@ Table recommendations {
   session_id uuid
   game_id uuid [not null]
   score decimal(4,2) [not null]
+  base_value decimal(6,4) [null]
   algorithm_type enum('content_based', 'collaborative', 'group_avg', 'group_least_misery', 'hybrid')
   explanation text [not null]
   created_at timestamptz [not null, default: `now()`]
   updated_at timestamptz [not null, default: `now()`]
   deleted_at timestamptz
+}
+
+Table recommendation_shap_values {
+  id uuid [pk]
+  recommendation_id uuid [not null]
+  feature_name varchar(100) [not null]
+  feature_display_name varchar(100) [null]
+  feature_value varchar(100) [null]
+  shap_value decimal(6,4) [not null]
+  created_at timestamptz [not null, default: `now()`]
+  indexes {
+    (recommendation_id, feature_name) [unique]
+  }
 }
 
 Table recommendation_feedbacks {
@@ -158,4 +173,5 @@ Ref: session_players.session_id > game_sessions.id
 Ref: session_players.user_id > users.id
 Ref: recommendations.user_id > users.id
 Ref: recommendations.game_id > games.id
+Ref: recommendation_shap_values.recommendation_id > recommendations.id
 Ref: recommendation_feedbacks.recommendation_id - recommendations.id

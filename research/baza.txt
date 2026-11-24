@@ -92,6 +92,7 @@ Table users {
   id uuid [pk]
   qr_hmac_secret varchar(64)
   nickname varchar(20) [default: null] // CREATE UNIQUE INDEX uq_users_nickname ON users (nickname) WHERE deleted_at IS NULL;
+  bgg_username varchar(100) [null] // Profil BoardGameGeek gracza do analizy Półki Wstydu i prywatnej kolekcji
   name varchar(50) [default: null]
   surname varchar(50) [default: null]
   email varchar(255) [not null] //CREATE UNIQUE INDEX uq_users_email ON users (email) WHERE deleted_at IS NULL;
@@ -218,6 +219,8 @@ Table menu_items {
   category varchar(50) [not null]
   price decimal(10,2) [not null]
   is_available boolean [not null, default: true]
+  stock_quantity int [default: null]
+  is_card_friendly boolean [not null, default: false]
   image_url varchar(255)
   created_at timestamptz [not null, default: `now()`]
   updated_at timestamptz [not null, default: `now()`]
@@ -322,6 +325,7 @@ Table payments {
   order_id uuid [null] // CREATE UNIQUE INDEX uq_payments_order ON payments (order_id) WHERE order_id IS NOT NULL AND payment_status IN ('pending', 'completed');
   idempotency_key uuid [unique, not null] 
   amount decimal(10,2) [not null]
+  discount_amount decimal(10,2) [not null, default: 0.00] // Kwota naliczonego rabatu lojalnościowego z XP
   payment_status enum('pending', 'completed', 'failed', 'refunded') [not null, default: 'pending']
   payment_method enum('cash', 'card', 'blik') [not null]
   created_at timestamptz [not null, default: `now()`]
@@ -398,6 +402,45 @@ Table user_achievements {
   }
 }
 
+Table recommendations {
+  id uuid [pk]
+  user_id uuid [null]
+  session_id uuid [null]
+  game_id uuid [not null]
+  score decimal(4,2) [not null]
+  base_value decimal(6,4) [null]
+  algorithm_type enum('content_based', 'collaborative', 'group_avg', 'group_least_misery', 'hybrid') [not null]
+  explanation text [not null]
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+Table recommendation_shap_values {
+  id uuid [pk]
+  recommendation_id uuid [not null]
+  feature_name varchar(100) [not null]
+  feature_display_name varchar(100) [null]
+  feature_value varchar(100) [null]
+  shap_value decimal(6,4) [not null]
+  created_at timestamptz [not null, default: `now()`]
+  indexes {
+    (recommendation_id, feature_name) [unique]
+  }
+}
+
+Table recommendation_feedbacks {
+  id uuid [pk]
+  recommendation_id uuid [unique, not null]
+  rating_stars int [not null] // CHECK (rating_stars BETWEEN 1 AND 5)
+  description varchar(255)
+  created_at timestamptz [not null, default: `now()`]
+  updated_at timestamptz [not null, default: `now()`]
+  deleted_at timestamptz
+}
+
+
+
 Ref: game_copies.game_id > games.id
 Ref: mechanics.id < game_mechanics.mechanic_id
 Ref: game_mechanics.game_id > games.id
@@ -446,3 +489,8 @@ Ref: friendships.user_id > users.id
 Ref: friendships.friend_id > users.id
 Ref: user_achievements.user_id > users.id
 Ref: user_achievements.achievement_id > achievements.id
+Ref: recommendations.user_id > users.id
+Ref: recommendations.session_id > table_sessions.id
+Ref: recommendations.game_id > games.id
+Ref: recommendation_shap_values.recommendation_id > recommendations.id
+Ref: recommendation_feedbacks.recommendation_id - recommendations.id
